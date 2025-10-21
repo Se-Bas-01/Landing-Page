@@ -15,8 +15,8 @@ html, body {
     justify-content: flex-start;
     background-color: #1F2937;
     color: #F9FAF8;
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: 260px;
+    margin-right: 260px;
     padding-top: 10px;
     font-size: 24px;
 }
@@ -35,8 +35,8 @@ html, body {
 }
 .first-container {
     display: flex;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 260px;
+    padding-right: 260px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -109,9 +109,9 @@ html, body {
 }
 .second-container {
     display: flex;
-    justify-content: space-between;
-    padding-left: 250px;
-    padding-right: 250px;
+    justify-content: space-around;
+    padding-left: 350px;
+    padding-right: 350px;
     padding-bottom: 40px;
 }
 .box1 {
@@ -146,20 +146,23 @@ html, body {
     font-weight: 300;
     font-style: italic;
     margin-bottom: 0;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 #thor {
     display: flex;
     align-self: flex-end;
     font-weight: 700;
     font-size: 24px;
+    margin-right: 120px;
 }
 .fourth-container {
     display: flex;
     background-color: #3882F6;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: 260px;
+    margin-right: 260px;
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 10px;
