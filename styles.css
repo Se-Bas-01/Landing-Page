@@ -15,8 +15,10 @@ html, body {
     justify-content: flex-start;
     background-color: #1F2937;
     color: #F9FAF8;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding-top: 10px;
+    font-size: 24px;
 }
 #logo {
     margin-left: 20px;
@@ -33,7 +35,10 @@ html, body {
 }
 .first-container {
     display: flex;
-    padding: 80px;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .image-placeholder {
     background-color: #E5E7EB66;
@@ -59,6 +64,9 @@ html, body {
     color: #F9FAF8;
     margin: 20px;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 }
 #signUp {
     background-color: #3882F6;
@@ -99,17 +107,47 @@ html, body {
 }
 .second-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 40px;
 }
 .box1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 150px;
 }
 .box1-1 {
     display: flex;
     background-color: white;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+.subtext-2 {
+    color: #85878a;
+}
+.third-container {
+    flex-direction: column;
+    display: flex;
+    background-color: #E5E7EB;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 0;
+}
+#thor {
+    display: flex;
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 24px;
 }
