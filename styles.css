@@ -71,31 +71,33 @@ html, body {
 #signUp {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 9px;
+    padding-bottom: 9px;
     border: 0;
     border-radius: 5px;
     margin-top: 10px;
+    font-size: 15px;
+    font-weight: 700;
 }
 #signUp:hover {
     background-color: #7eb0ff;
     color: #F9FAF8;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 9px;
+    padding-bottom: 9px;
     border: 0;
     border-radius: 5px;
 }
 #signUp:active {
     background-color: #c2daff;
     color: #F9FAF8;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 9px;
+    padding-bottom: 9px;
     border: 0;
     border-radius: 5px;
 }
@@ -158,11 +160,56 @@ html, body {
     margin-bottom: 100px;
     margin-left: 160px;
     margin-right: 160px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     border-radius: 10px;
+    justify-content: space-around;
 }
 .call-action {
     display: flex;
     flex-direction: column;
+}
+#call-action {
+    margin: 0;
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 25px;
+}
+#signUp2 {
+    background-color: #3881f600;
+    color: #F9FAF8;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    margin-top: 10px;
+    align-self: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+#signUp2:hover {
+    background-color: #ffffff54;
+    color: #F9FAF8;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+#signUp2:active {
+    background-color: #ffffff98;
+    color: #F9FAF8;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
 }
