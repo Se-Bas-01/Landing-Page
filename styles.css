@@ -213,3 +213,11 @@ html, body {
     font-size: 15px;
     font-weight: 700;
 }
+footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    color: #F9FAF8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
