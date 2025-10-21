@@ -15,8 +15,8 @@ html, body {
     justify-content: flex-start;
     background-color: #1F2937;
     color: #F9FAF8;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 #logo {
     margin-left: 20px;
@@ -33,7 +33,7 @@ html, body {
 }
 .first-container {
     display: flex;
-    padding: 40px;
+    padding: 80px;
 }
 .image-placeholder {
     background-color: #E5E7EB66;
@@ -48,10 +48,12 @@ html, body {
 #hero {
     font-size: 48px;
     color: #F9FAF8;
+    margin: 0;
 }
 .whitish {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
 }
 .awesome-container {
     color: #F9FAF8;
@@ -67,4 +69,47 @@ html, body {
     padding-bottom: 5px;
     border: 0;
     border-radius: 5px;
+    margin-top: 10px;
+}
+#signUp:hover {
+    background-color: #7eb0ff;
+    color: #F9FAF8;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 5px;
+}
+#signUp:active {
+    background-color: #c2daff;
+    color: #F9FAF8;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 5px;
+}
+#rando-info {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+.second-container {
+    display: flex;
+    justify-content: center;
+}
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box1-1 {
+    display: flex;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border: 5px solid #3882F6;
 }
